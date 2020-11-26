@@ -1,0 +1,284 @@
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css';
+
+html, body
+{
+
+    height: 100%;
+}
+.App{
+
+}
+.side{
+    height: 925px ;
+    width: 20%;
+    background-color: #26547C;
+}
+.main{
+
+    height: 757px;
+
+}
+.sidehead{
+    height: 18%;
+
+}
+.active{
+    background-color: #EF476F;
+}
+.link:hover{
+    text-decoration: none;
+    text-underline: none;
+    color: white;
+}
+.link{
+    color: white;
+}
+.detail{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.profile{
+    margin-top: 60px;
+
+}
+.sectiona{
+display: flex;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+.font{
+    font-size: 20px;
+}
+.button{
+    background-color: #EF476F;
+    color: white;
+    font-size: 20px;
+    margin-left: 11%;
+    padding: 7px;
+}
+.button:active{
+    underline:none ;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    background-color: #FFD166;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #efefef;
+}
+.tab{
+   margin:20px;
+}
+.gamee{
+    margin-left: 2%;
+    padding: 3%;
+
+}
+.img{
+    height: 200px;
+    margin-top: 10%;
+    cursor: pointer;
+}
+.logo{
+    width: 100%;
+    height: 170px;
+}
+.gamehead{
+    width: 100%;
+    background-color: #FFD166;
+    height: 10vh;
+}
+.gamebtn{
+    height: 10vh;
+    width: 15%;
+    background-color: #EF476F;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: 5;
+}
+.gamebtn:active{
+    outline: none;
+    border: none;
+}
+.seca{
+    display: flex;
+    height: 90vh;
+    width: 50%;
+}
+.secb{
+    height: 90vh;
+    width: 30%;
+}
+.secc{
+    height: 90vh;
+    overflow-y: auto;
+    width: 20%;
+}
+.cardimg{
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+
+}
+.cardsec{
+    margin:20%;
+    z-index: 1000;
+}
+.bids-sec{
+    position: absolute;
+    font-size: 3rem;
+    margin-left: 40%;
+}
+.bidimg{
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+.winning{
+    margin: 20%;
+}
+.winamount{
+    margin: 13%;
+}
+.bidder{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+}
+.btam{
+    margin: 30px;
+    padding: 10px;
+    background-color: #EF476F;
+    color: white;
+    font-size: 2rem;
+    border: none;
+}
+.btam:hover{
+    outline:none;
+    border: none;
+}
+.placebid{
+
+display: flex;
+    padding: 5px;
+    margin-left: 15%;
+   margin-bottom: 3%;
+
+}
+.inputs{
+    padding: 5px;
+    background-color: #EF476F;
+    color: white;
+
+}
+.bt {
+    background-color: darkorchid;
+}
+.bt:focus{
+    outline: none;
+}
+.inputs:focus{
+    outline: none;
+}
+.content{
+    display: flex;
+    width: 100%;
+
+}
+@media screen and (max-width: 1500px) {
+    .cardimg{
+        height: 120px;
+        margin: 2%;
+        width: 100px;
+        cursor: pointer;
+    }
+    .placebid{
+
+        display: flex;
+        padding: 5px;
+        margin-left: 15%;
+        margin-bottom: 15%;
+
+    }
+}
+@media screen and (max-width: 1360px) {
+    .cardimg{
+        height: 100px;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        width: 100px;
+        cursor: pointer;
+    }
+    .placebid{
+
+        display: flex;
+        padding: 5px;
+        margin-left: 15%;
+        margin-bottom: 8%;
+
+    }
+    .ch{
+        margin-left: 9%;
+    }
+    .check{
+        margin-left: auto;
+    }
+    btam{
+        margin-left: auto;
+    }
+}
+#login .container #login-row #login-column #login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+
+}
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+}
+.bb{
+    background-color: #EF476F;
+    width: 20%;
+    height: 75px;
+    position: absolute;
+}
+.check{
+    margin-left:8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.check1{
+    margin-left:2%;
+    margin-right: 2%;
+    cursor: pointer;
+}
