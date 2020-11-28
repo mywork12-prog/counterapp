@@ -25,17 +25,17 @@ export default function Login(){
                 <div id="login-row" className="row justify-content-center align-items-center">
                     <div id="login-column" className="col-md-6">
                         <div id="login-box" className="col-md-12">
-                                <h3 className="text-center text-info">Login</h3>
+                                <h3 className="text-center " style={{color:'#EF476F'}}>Login</h3>
                                 <div className="form-group">
-                                    <label htmlFor="username" className="text-info">Username:</label><br/>
+                                    <label htmlFor="username" style={{color:'#EF476F'}}>Username:</label><br/>
                                     <input type="text" name="username" id="username" className="form-control" onChange={(e)=> setUsername(e.target.value)} />
                                 </div>
                                 <div className="form-group">
-                                    <label htmlFor="password" className="text-info">Password:</label><br/>
+                                    <label htmlFor="password" style={{color:'#EF476F'}} >Password:</label><br/>
                                     <input type="text" name="password" id="password" className="form-control" onChange={(e)=> setPassword(e.target.value)} />
                                 </div>
                                 <div className="form-group">
-                                    <input type="submit" name="submit" className="btn btn-info btn-md" onClick={login} value="submit" />
+                                    <input type="submit" name="submit" className="btn btn-md" style={{color:'#FFD166',backgroundColor:'#EF476F'}} onClick={login} value="submit" />
                                 </div>
                         </div>
                     </div>

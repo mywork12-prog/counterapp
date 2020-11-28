@@ -209,7 +209,7 @@ display: flex;
     width: 100%;
 
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1550px) {
     .cardimg{
         height: 120px;
         margin: 2%;
@@ -224,6 +224,8 @@ display: flex;
         margin-bottom: 15%;
 
     }
+
+
 }
 @media screen and (max-width: 1360px) {
     .cardimg{
@@ -250,6 +252,7 @@ display: flex;
     btam{
         margin-left: auto;
     }
+
 }
 #login .container #login-row #login-column #login-box {
     margin-top: 120px;
@@ -282,3 +285,10 @@ display: flex;
     margin-right: 2%;
     cursor: pointer;
 }
+
+.cardimgsel{
+
+    border-style: solid;
+    border-color: #FFD166;
+}
+

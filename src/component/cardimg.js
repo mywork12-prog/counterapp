@@ -6,7 +6,7 @@ import {imgs} from './card.js'
 export default function Cardimg(props){
 
 
-    if(props.img === 'cludJ'){
+    if(props.img === 'clubJ'){
        return (
                <img className="bidimg" src={imgs.clubJ} alt='cludJ' style={{height:'300px',width:'300px'}}/>
            )
